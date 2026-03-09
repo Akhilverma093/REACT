@@ -1,0 +1,8 @@
+component ek basically small small function hote hai each part of website ke liye toh ham uske liye ek alg se components ka folder banayenge aur app wala folder ko aisa hi chor denge usko khuch nhi kreenge
+
+agr kisi variable ko print karna hai to usko {} me likhna hota hai
+
+
+//jab tk component ko APP.jsx mai import nhi krenge aur uss function ko app function ke andr call nhi krenge tb tk nhi chalega.
+aur function call krne ke liye {card()}use krte hai ya <card/>
+
