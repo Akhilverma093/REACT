@@ -1,0 +1,27 @@
+Reat-
+->It is a javascript library to build dynamic and interactive user interfaces.
+->Developed at facebook in 2011.
+->it is js library for frontend development.
+->used to create single page application(SPA).
+
+Problem with javascript-
+->react has a simpler mental model
+->JS is cumbersome(time &complex)
+->JS is Error-prone
+->JS is hard to maintain
+
+Working of React-
+->No need to worry about querying and updating development
+->React creates a web page with small and reusable component
+->React will take care of creating and updating DOM element
+->It saves a lot of time,chhezein assan hai,pehle se likhi rhti hai
+
+JS VS REACT-
+->JS is imperative: You define steps to reach your desired state
+->React is declarative :you define the target UI state and then react figure out how to reach that state
+
+
+Create a React App-
+official tool is CRA(create react app)
+
+
