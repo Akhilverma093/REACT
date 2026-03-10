@@ -1,12 +1,16 @@
 import React from 'react'
-import card from './components/card';
+import Card from './components/card';
+import Card2 from './components/card2';
 const App = () => {
   
   return (
-    <div>
-   {card()}
-   {/* <card/> */}
-   </div>
+    <>
+   {/* {card()} */}
+   <Card/>
+   {/* we can call function by both ways */}
+   <Card2/>
+
+   </>
    
   )
 }

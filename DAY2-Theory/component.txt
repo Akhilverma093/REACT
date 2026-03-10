@@ -4,5 +4,5 @@ agr kisi variable ko print karna hai to usko {} me likhna hota hai
 
 
 //jab tk component ko APP.jsx mai import nhi krenge aur uss function ko app function ke andr call nhi krenge tb tk nhi chalega.
-aur function call krne ke liye {card()}use krte hai ya <card/>
+aur function call krne ke liye {card()}use krte hai ya <Card/> aur iss wale mai first letter capital honna chaiye
 
