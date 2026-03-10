@@ -1,13 +1,14 @@
 import React from 'react'
 
-const card = () => {
+const card = (props) => {
   return (
-    <>
-      <div className="card">
-        <h2>Card Title</h2>
-        <p>This is a card component.</p>
-      </div>
-    </>
+    <div className="card">
+       <img src={props.img} alt="" />
+      <h1>{props.user} - {props.age}</h1>
+     
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <button>View Profile</button>
+    </div>
   )
 }
 

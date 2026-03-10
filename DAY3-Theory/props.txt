@@ -1,0 +1,3 @@
+IN this lecture we are going to learn about PROPS
+
+let app.jsx is parent and card.jsx is child so hum data parent se child ki taraf bhejte hai mtlb upr se neeche jata hai 
