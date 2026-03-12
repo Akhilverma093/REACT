@@ -1,0 +1,7 @@
+in this lecture we are going to learn styling in react
+
+so the problem is if we give same class to multiple element then it applied to all these but we dont want to do so we create different css file for each component
+
+so we use module method to separate css of each component-
+so in component we make differnet folder for each component contain jsx and css files  
+and the css file should name as filename.module.css
