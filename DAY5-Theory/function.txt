@@ -1,0 +1,29 @@
+in this day we learn about working with function
+
+// function btnclicked(){
+  //   console.log('button is clicked');
+  // }
+   function inputChnaging(val){
+      console.log(val);
+    }
+
+ <h1>Hello, Akhil </h1>
+      {/* yaha pr function ko call nhi krna hai sirf function likhna hai kyuki agr call kr diya toh bina click ke function chal jayega */}
+      {/* <button onClick={btnclicked}>change user</button> */}
+      
+      {/* <button onClick={
+        function (){
+          console.log('hello guys')
+        }
+      }>change user</button> */}
+
+   
+      {/* <input onChange={inputChnaging} type="text" placeholder='Enter Name' /> */}
+    
+
+    {/* agr hame function ko call krna hai aur aur hum call krte the toh wo pehle hi run ho jata tha toh usse bachne ke liye ham function ke andr function call krenge */}
+    <input onChange={
+      (elem)=>{
+       inputChnaging(elem.target.value);
+      }
+    } type="text" placeholder='Enter Name' />
