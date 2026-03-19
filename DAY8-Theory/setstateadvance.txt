@@ -1,0 +1,9 @@
+advance level of setstate
+let initial 10;
+function btnclicked(){
+    setNum(30);
+    console.log(num);
+
+  }
+
+yaha pr console mai 10 hi print hoga kuki yaha asynchronise way mai code run hota hai jbki yaha setnum(30) pehle likha hai phir bhi 10 hi print hoga mtlb ek step peeche chlata hai agr hum dobara click krenge toh 30 print krega.
