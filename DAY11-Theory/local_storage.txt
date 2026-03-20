@@ -1,0 +1,9 @@
+in this lecture we will learn about local storage
+-setItem-
+ localStorage.setItem('user','akhil')
+-getItem-
+const user= localStorage.getItem('user')
+-removeItem-
+ localStorage.removeItem('user');
+-clear()-
+localStorage.clear();
