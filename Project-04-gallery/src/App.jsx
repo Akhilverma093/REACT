@@ -43,7 +43,7 @@ className='bg-amber-400 text-black rounded text-sm cursor-pointer active:scale-9
 onClick={()=>{
   if(index>1){   
   setindex(index-1)
-  setUserdata([])
+  setUserdata([]) 
   }
 }}
 >
