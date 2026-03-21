@@ -41,7 +41,7 @@ style={{opacity:index==1?0.5:1}}
 
 className='bg-amber-400 text-black rounded text-sm cursor-pointer active:scale-95 px-4 py-2 font-semibold'
 onClick={()=>{
-  if(index>1){
+  if(index>1){   
   setindex(index-1)
   setUserdata([])
   }
