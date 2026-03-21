@@ -1,0 +1,19 @@
+React router dom-
+iski site pr jakr isko install krna padega
+run a command - 
+npm i react-router-dom
+
+type of router-
+1->BrowserRouter- / iska use krte hai used
+2->HashRouter
+3->MemoryRouter
+4->StaticRouter
+
+-in main.jsx we wrap the APP from browserrouter 
+-import this in main.jsx
+import {BrowserRouter} from 'react-router-dom'
+
+<BrowserRouter>
+  <App />
+  
+  </BrowserRouter>

@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-import React from 'react'
 
-const App = () => {
-  return (
-    <div>App</div>
-=======
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import Card from './components/Card'
@@ -66,7 +60,7 @@ onClick={()=>{
 Next</button>
 </div>
     </div>
->>>>>>> c57a2d4 (changes done)
+
   )
 }
 
