@@ -1,0 +1,4 @@
+in this lecture we learn what is api context-
+actually we pass components through props app->navbar->sidebar->theme
+we transfer props first then navbar and continous...
+now api context help to pass props directly from app to theme
