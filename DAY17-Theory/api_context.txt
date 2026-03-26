@@ -2,3 +2,20 @@ in this lecture we learn what is api context-
 actually we pass components through props app->navbar->sidebar->theme
 we transfer props first then navbar and continous...
 now api context help to pass props directly from app to theme
+
+-uske liye app ko wrap krna padega themecontext se in main.jsx file mai
+
+three step in api context-
+->isko import krenge jaha create kr rhe hai
+import { createContext } from 'react'
+
+->create karo context -
+export const Themedatacontext=createContext();
+
+->provide karo data-
+ <Themedatacontext.Provider value='AKHIL'>
+      {props.children}
+ </Themedatacontext.Provider>
+
+->use karo data ko-ye jaha use krenge wha likhenge
+const data=useContext(Themedatacontext)
